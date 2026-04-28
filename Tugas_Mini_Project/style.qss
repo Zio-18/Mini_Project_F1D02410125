@@ -1,0 +1,46 @@
+QMainWindow, QDialog {
+    background-color: #f8f9fa;
+}
+
+QLabel {
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+QLineEdit, QDateEdit, QComboBox, QTextEdit {
+    border: 2px solid #dcdfe6;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: #ffffff;
+    color: #2d3436;
+    font-size: 13px;
+    min-height: 25px;
+}
+
+QLineEdit:focus, QDateEdit:focus, QComboBox:focus {
+    border: 2px solid #3498db;
+    background-color: #ffffff;
+}
+
+QDateEdit::drop-down {
+    border: none;
+    background: transparent;
+}
+
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #1c598a;
+}
